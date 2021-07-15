@@ -3,6 +3,7 @@ FROM ghcr.io/europeanroverchallenge/erc-remote-image-base:latest
 # Install additional packages
 RUN apt-get update && apt-get -y upgrade && apt-get -y install \
   tmux \
+  vim \
   && rm -rf /var/lib/apt/lists/*
 
 # Copy packages and build the workspace
