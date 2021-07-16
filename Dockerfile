@@ -17,6 +17,7 @@ RUN catkin config --extend /opt/ros/melodic && catkin build --no-status
 
 # Automatically source the workspace when starting a bash session
 RUN echo "source /catkin_ws/devel/setup.bash" >> /etc/bash.bashrc
+RUN echo "export ROS_MASTER_URI=http://10.0.1.2:11311" >> /etc/bash.bashrc
 
 # Install start script
 COPY ./start.sh /

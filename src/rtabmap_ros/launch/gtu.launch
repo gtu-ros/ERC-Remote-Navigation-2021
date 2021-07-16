@@ -1,0 +1,13 @@
+<launch>
+     <!-- ROS navigation stack move_base -->
+     
+     <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <param name="base_global_planner" value="navfn/NavfnROS"/>
+        <rosparam file="/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/costmap_2d/launch/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/costmap_2d/launch/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/costmap_2d/launch/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/costmap_2d/launch/costmap_common_params.yaml" command="load" ns="global_costmap"/>
+        <rosparam file="/home/ofs/ERC-Remote-Navigation-Sim/src/leo_erc_desktop/leo_erc_gazebo/launch/base_local_planner_params.yaml" command="load" />
+
+     </node>
+</launch>
