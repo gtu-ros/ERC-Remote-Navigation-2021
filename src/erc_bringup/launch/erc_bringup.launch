@@ -5,6 +5,6 @@
         type="image_saver"/>
 
   <include file="/catkin_ws/src/rtabmap_ros/launch/deneme.launch" />
-  <include file="/catkin_ws/src/rtabmap_ros/launch/otonom.launch" />
+  <include file="/catkin_ws/src/rtabmap_ros/launch/otonomy.launch" />
   <include file="/catkin_ws/src/ar_track_alvar/ar_track_alvar/launch/ar_tag_indiv.launch" />
 </launch>
