@@ -6,5 +6,5 @@
 
   <include file="/catkin_ws/src/rtabmap_ros/launch/deneme.launch" />
   <include file="/catkin_ws/src/rtabmap_ros/launch/otonomy.launch" />
-  <include file="/catkin_ws/src/ar_track_alvar/ar_track_alvar/launch/ar_tag_indiv.launch" />
+  <include file="/catkin_ws/src/ar_track_alvar/ar_track_alvar/launch/sim_no_kinect.launch" />
 </launch>

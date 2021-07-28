@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ofs/ERC-Remote-Navigation-Sim/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/amcl/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/base_local_planner/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/carrot_planner/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/clear_costmap_recovery/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/costmap_2d/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/depthimage_to_laserscan/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/dwa_local_planner/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/global_planner/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/map_server/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/move_base/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/move_slow_and_clear/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/nav_core/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/navfn/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/octomap_rviz_plugins/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/robot_localization/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/rotate_recovery/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/rtabmap_ros/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/navigation/voxel_grid/include/**",
+        "/home/ofs/ERC-Remote-Navigation-Sim/src/zed-ros-wrapper/zed_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
